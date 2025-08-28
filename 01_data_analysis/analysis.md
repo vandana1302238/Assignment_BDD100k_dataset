@@ -146,20 +146,20 @@ BDD_IMAGES_DIR="path/to/images/100k"    # Optional: For image quality analysis
 ## Results
 
 # Dataset summary
-![Class Distribution](bdd_analysis_results\dataset_summary_table.png)
+![Class Distribution](bdd_analysis_results/dataset_summary_table.png)
 
 # Train val split analysis
-![Class Distribution](bdd_analysis_results\train_val_split_analysis.png)
+![Class Distribution](bdd_analysis_results/train_val_split_analysis.png)
 
 # class distribution comparison
-![Class Distribution](bdd_analysis_results\class_distribution_comparison.png)
+![Class Distribution](bdd_analysis_results/class_distribution_comparison.png)
 
 - Cars, traffic signs, traffic lights dominate.  
 - Rare classes (train, rider, motor, bike, bus) <1%.
 
 # bounding box area distribution
 
-![Class Distribution](bdd_analysis_results\bbox_area_distribution.png)
+![Class Distribution](bdd_analysis_results/bbox_area_distribution.png)
 
 - Most categories show a long-tailed distribution → many small objects, very few large ones.
 - Traffic lights & signs: overwhelmingly tiny, which makes detection difficult.
@@ -170,23 +170,23 @@ BDD_IMAGES_DIR="path/to/images/100k"    # Optional: For image quality analysis
 
 # Bounding box area by class (top 5)
 
-![Class Distribution](bdd_analysis_results\bbox_area_by_class_top5_boxplot.png)
+![Class Distribution](bdd_analysis_results/bbox_area_by_class_top5_boxplot.png)
 - Tiny objects (traffic lights/signs) → hardest for YOLOv8n.  
 - Cars/trucks have larger and more varied boxes.
 
 # Aspect ratio distribution
-![Class Distribution](bdd_analysis_results\aspect_ratio_distribution_training.png)
+![Class Distribution](bdd_analysis_results/aspect_ratio_distribution_training.png)
 
 - Most boxes near-square or vertical.  
 - Very few elongated boxes.
 
 # Objects per image distribution
-![Class Distribution](bdd_analysis_results\objects_per_image_distribution.png)
+![Class Distribution](bdd_analysis_results/objects_per_image_distribution.png)
 - 10–40 objects per image typical.  
 - Dense scenes → higher NMS conflict risk.
 
 # Weather distribution
-![Class Distribution](bdd_analysis_results\weather_distribution_heatmap.png)
+![Class Distribution](bdd_analysis_results/weather_distribution_heatmap.png)
 
 - Clear weather dominates (51%). Foggy/snowy/rainy underrepresented.  
 - Likely weaker generalization to rare weather conditions.

@@ -84,7 +84,7 @@ Chosen Model: YOLOv8n (nano, anchor-free)
 - Head: Decoupled prediction for class/objectness/box; anchor-free regression.
 - Loss: BCE (cls,obj) + CIoU for bounding boxes.
 - 
-![img](weights\diag.png)
+![img](weights/diag.png)
 
 #### Dataset Characteristics:
 
