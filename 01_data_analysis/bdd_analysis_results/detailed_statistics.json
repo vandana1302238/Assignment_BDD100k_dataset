@@ -1,0 +1,1140 @@
+{
+  "class_distribution": {
+    "train_class_counts": {
+      "car": 713211,
+      "traffic sign": 239686,
+      "traffic light": 186117,
+      "person": 91349,
+      "truck": 29971,
+      "bus": 11672,
+      "bike": 7210,
+      "rider": 4517,
+      "motor": 3002,
+      "train": 136
+    },
+    "val_class_counts": {
+      "car": 102506,
+      "traffic sign": 34908,
+      "traffic light": 26885,
+      "person": 13262,
+      "truck": 4245,
+      "bus": 1597,
+      "bike": 1007,
+      "rider": 649,
+      "motor": 452,
+      "train": 15
+    },
+    "train_images_per_class": {
+      "bike": 4343,
+      "bus": 8993,
+      "car": 69072,
+      "motor": 2284,
+      "person": 22076,
+      "rider": 3586,
+      "traffic light": 39237,
+      "traffic sign": 57154,
+      "train": 105,
+      "truck": 18890
+    },
+    "val_images_per_class": {
+      "bike": 578,
+      "bus": 1242,
+      "car": 9879,
+      "motor": 334,
+      "person": 3220,
+      "rider": 515,
+      "traffic light": 5653,
+      "traffic sign": 8221,
+      "train": 14,
+      "truck": 2689
+    },
+    "train_total_objects": 1286871,
+    "val_total_objects": 185526,
+    "train_total_images": 69863,
+    "val_total_images": 10000
+  },
+  "bbox_statistics": {
+    "train": {
+      "traffic light": {
+        "count": 186117,
+        "area_mean": 507.3738372475787,
+        "area_std": 1698.1435911998256,
+        "area_median": 263.11443374400477,
+        "width_mean": 15.87293256723459,
+        "height_mean": 25.286758358645365,
+        "aspect_ratio_mean": 0.714379449850339,
+        "area_min": 0.9366393988381135,
+        "area_max": 302654.30963059614
+      },
+      "traffic sign": {
+        "count": 239686,
+        "area_mean": 1198.9350833555113,
+        "area_std": 4308.835180565727,
+        "area_median": 444.23376412521236,
+        "width_mean": 32.27874664105538,
+        "height_mean": 25.20172931011406,
+        "aspect_ratio_mean": 1.5055483975591297,
+        "area_min": 3.5721518704958135,
+        "area_max": 917709.770977253
+      },
+      "person": {
+        "count": 91349,
+        "area_mean": 2945.0119390202653,
+        "area_std": 7617.504764509023,
+        "area_median": 1075.568479270897,
+        "width_mean": 27.672265616843095,
+        "height_mean": 66.70915494334913,
+        "aspect_ratio_mean": 0.4604831937120513,
+        "area_min": 2.3953824995928525,
+        "area_max": 344937.76346363436
+      },
+      "bike": {
+        "count": 7210,
+        "area_mean": 5925.37547807509,
+        "area_std": 10684.719717966089,
+        "area_median": 2460.3724714506925,
+        "width_mean": 60.625712850485435,
+        "height_mean": 67.37324977475728,
+        "aspect_ratio_mean": 0.9598173237960335,
+        "area_min": 3.7465410689010437,
+        "area_max": 273027.0625230323
+      },
+      "truck": {
+        "count": 29971,
+        "area_mean": 27771.02896405792,
+        "area_std": 59088.65535231377,
+        "area_median": 5593.884495299518,
+        "width_mean": 127.58069050422074,
+        "height_mean": 115.1240365292783,
+        "aspect_ratio_mean": 1.2997225809960085,
+        "area_min": 2.997241301974826,
+        "area_max": 828772.1822174517
+      },
+      "motor": {
+        "count": 3002,
+        "area_mean": 7584.087413583054,
+        "area_std": 16377.146124308078,
+        "area_median": 2485.4898998322315,
+        "width_mean": 67.12422638874084,
+        "height_mean": 68.27822273617589,
+        "aspect_ratio_mean": 1.0227216709526514,
+        "area_min": 30.983481387935797,
+        "area_max": 316440.6388993434
+      },
+      "car": {
+        "count": 713211,
+        "area_mean": 9422.474886962873,
+        "area_std": 25003.25722141537,
+        "area_median": 1381.9170066665401,
+        "width_mean": 74.61667185848648,
+        "height_mean": 58.02200624100441,
+        "aspect_ratio_mean": 1.3477271065016476,
+        "area_min": 0.8714116864181584,
+        "area_max": 612645.1832104347
+      },
+      "train": {
+        "count": 136,
+        "area_mean": 38624.71901562403,
+        "area_std": 72176.71862129467,
+        "area_median": 4962.90340385105,
+        "width_mean": 267.08336686764704,
+        "height_mean": 83.87230733823529,
+        "aspect_ratio_mean": 3.732762070259466,
+        "area_min": 51.54753787756395,
+        "area_max": 500339.2359653464
+      },
+      "rider": {
+        "count": 4517,
+        "area_mean": 6314.221790684924,
+        "area_std": 14159.282825363953,
+        "area_median": 1790.4236085900818,
+        "width_mean": 43.502290508080584,
+        "height_mean": 82.53194349324774,
+        "aspect_ratio_mean": 0.5817435811742089,
+        "area_min": 5.601916979859188,
+        "area_max": 257238.43697600273
+      },
+      "bus": {
+        "count": 11672,
+        "area_mean": 35806.86379080065,
+        "area_std": 73811.25725694008,
+        "area_median": 6329.889556424769,
+        "width_mean": 145.66309447326935,
+        "height_mean": 127.37936233447567,
+        "aspect_ratio_mean": 1.4261494388924276,
+        "area_min": 8.972287865195188,
+        "area_max": 775744.2348936556
+      }
+    },
+    "val": {
+      "traffic light": {
+        "count": 26885,
+        "area_mean": 497.5042955466402,
+        "area_std": 730.3617563724172,
+        "area_median": 262.4397349461354,
+        "width_mean": 15.864033426780733,
+        "height_mean": 25.28018001781663,
+        "aspect_ratio_mean": 0.7151799170324884,
+        "area_min": 2.3142949800754176,
+        "area_max": 40551.347800784264
+      },
+      "traffic sign": {
+        "count": 34908,
+        "area_mean": 1193.5128995225905,
+        "area_std": 3159.88571894778,
+        "area_median": 446.93419436661077,
+        "width_mean": 32.37851573169474,
+        "height_mean": 25.249405982611435,
+        "aspect_ratio_mean": 1.5102541254099697,
+        "area_min": 3.9835755614851283,
+        "area_max": 105944.90788537904
+      },
+      "person": {
+        "count": 13262,
+        "area_mean": 2879.9516092968956,
+        "area_std": 7327.6931565315235,
+        "area_median": 1082.3810175681758,
+        "width_mean": 27.45511726813452,
+        "height_mean": 66.0103465885236,
+        "aspect_ratio_mean": 0.45988779054057666,
+        "area_min": 3.3718917975300724,
+        "area_max": 155240.17475059596
+      },
+      "bike": {
+        "count": 1007,
+        "area_mean": 5413.467515034841,
+        "area_std": 9095.159671242398,
+        "area_median": 2446.765319132927,
+        "width_mean": 59.04230235849057,
+        "height_mean": 65.00099782323734,
+        "aspect_ratio_mean": 0.9587907125920521,
+        "area_min": 44.81535380192697,
+        "area_max": 110214.80638689053
+      },
+      "truck": {
+        "count": 4245,
+        "area_mean": 27422.988112125688,
+        "area_std": 59138.71562632937,
+        "area_median": 5510.589314534494,
+        "width_mean": 125.42476361672557,
+        "height_mean": 113.89476753757363,
+        "aspect_ratio_mean": 1.2773197972441181,
+        "area_min": 11.298105964543653,
+        "area_max": 573985.03902307
+      },
+      "motor": {
+        "count": 452,
+        "area_mean": 7799.654034931173,
+        "area_std": 16347.430951517901,
+        "area_median": 2595.9150327408543,
+        "width_mean": 68.26040514380531,
+        "height_mean": 69.95363968141592,
+        "aspect_ratio_mean": 1.037890813558458,
+        "area_min": 44.815338832733794,
+        "area_max": 185101.98343880774
+      },
+      "car": {
+        "count": 102506,
+        "area_mean": 9389.02335295735,
+        "area_std": 24949.69635430002,
+        "area_median": 1366.38586446088,
+        "width_mean": 74.26429775461924,
+        "height_mean": 57.885980569088645,
+        "aspect_ratio_mean": 1.344150229682574,
+        "area_min": 4.311679102289492,
+        "area_max": 455712.64498858317
+      },
+      "train": {
+        "count": 15,
+        "area_mean": 29394.23830322689,
+        "area_std": 37773.07949949258,
+        "area_median": 14426.14427920714,
+        "width_mean": 288.85726193333335,
+        "height_mean": 82.2468944,
+        "aspect_ratio_mean": 5.153213715411818,
+        "area_min": 890.3667662282687,
+        "area_max": 118478.8744035777
+      },
+      "rider": {
+        "count": 649,
+        "area_mean": 5971.1839441667325,
+        "area_std": 13855.634798494719,
+        "area_median": 1615.013824136516,
+        "width_mean": 42.83583751001541,
+        "height_mean": 79.27838775963019,
+        "aspect_ratio_mean": 0.602564470544646,
+        "area_min": 24.44970808546891,
+        "area_max": 191065.28019066443
+      },
+      "bus": {
+        "count": 1597,
+        "area_mean": 33675.07644575342,
+        "area_std": 66920.68599106195,
+        "area_median": 5947.42832196482,
+        "width_mean": 143.35384417783342,
+        "height_mean": 123.50496942579836,
+        "aspect_ratio_mean": 1.4238279093528856,
+        "area_min": 117.77083307950187,
+        "area_max": 470194.5637538886
+      }
+    }
+  },
+  "environmental_stats": {
+    "train": {
+      "weather_distribution": {
+        "bike": {
+          "clear": 3024,
+          "foggy": 7,
+          "overcast": 1107,
+          "partly cloudy": 465,
+          "rainy": 386,
+          "snowy": 465,
+          "undefined": 1756
+        },
+        "bus": {
+          "clear": 4842,
+          "foggy": 13,
+          "overcast": 1939,
+          "partly cloudy": 1082,
+          "rainy": 927,
+          "snowy": 998,
+          "undefined": 1871
+        },
+        "car": {
+          "clear": 372733,
+          "foggy": 1174,
+          "overcast": 103827,
+          "partly cloudy": 55728,
+          "rainy": 47681,
+          "snowy": 52104,
+          "undefined": 79964
+        },
+        "motor": {
+          "clear": 1569,
+          "foggy": 2,
+          "overcast": 430,
+          "partly cloudy": 261,
+          "rainy": 125,
+          "snowy": 102,
+          "undefined": 513
+        },
+        "person": {
+          "clear": 33796,
+          "foggy": 40,
+          "overcast": 14581,
+          "partly cloudy": 6243,
+          "rainy": 5831,
+          "snowy": 7844,
+          "undefined": 23014
+        },
+        "rider": {
+          "clear": 2048,
+          "foggy": 4,
+          "overcast": 773,
+          "partly cloudy": 362,
+          "rainy": 196,
+          "snowy": 203,
+          "undefined": 931
+        },
+        "traffic light": {
+          "clear": 97976,
+          "foggy": 273,
+          "overcast": 22629,
+          "partly cloudy": 11233,
+          "rainy": 15980,
+          "snowy": 16790,
+          "undefined": 21236
+        },
+        "traffic sign": {
+          "clear": 124736,
+          "foggy": 317,
+          "overcast": 34430,
+          "partly cloudy": 18424,
+          "rainy": 16024,
+          "snowy": 18258,
+          "undefined": 27497
+        },
+        "train": {
+          "clear": 65,
+          "foggy": 0,
+          "overcast": 18,
+          "partly cloudy": 20,
+          "rainy": 11,
+          "snowy": 16,
+          "undefined": 6
+        },
+        "truck": {
+          "clear": 12533,
+          "foggy": 30,
+          "overcast": 5285,
+          "partly cloudy": 3166,
+          "rainy": 2171,
+          "snowy": 2679,
+          "undefined": 4107
+        }
+      },
+      "scene_distribution": {
+        "bike": {
+          "city street": 6399,
+          "gas stations": 0,
+          "highway": 314,
+          "parking lot": 2,
+          "residential": 490,
+          "tunnel": 1,
+          "undefined": 4
+        },
+        "bus": {
+          "city street": 8729,
+          "gas stations": 0,
+          "highway": 2237,
+          "parking lot": 36,
+          "residential": 622,
+          "tunnel": 15,
+          "undefined": 33
+        },
+        "car": {
+          "city street": 448493,
+          "gas stations": 189,
+          "highway": 158695,
+          "parking lot": 4592,
+          "residential": 98101,
+          "tunnel": 684,
+          "undefined": 2457
+        },
+        "motor": {
+          "city street": 2372,
+          "gas stations": 0,
+          "highway": 273,
+          "parking lot": 6,
+          "residential": 347,
+          "tunnel": 2,
+          "undefined": 2
+        },
+        "person": {
+          "city street": 83817,
+          "gas stations": 24,
+          "highway": 3290,
+          "parking lot": 172,
+          "residential": 3947,
+          "tunnel": 14,
+          "undefined": 85
+        },
+        "rider": {
+          "city street": 3809,
+          "gas stations": 0,
+          "highway": 375,
+          "parking lot": 4,
+          "residential": 322,
+          "tunnel": 3,
+          "undefined": 4
+        },
+        "traffic light": {
+          "city street": 156911,
+          "gas stations": 25,
+          "highway": 18912,
+          "parking lot": 185,
+          "residential": 9725,
+          "tunnel": 39,
+          "undefined": 320
+        },
+        "traffic sign": {
+          "city street": 159035,
+          "gas stations": 38,
+          "highway": 62023,
+          "parking lot": 542,
+          "residential": 17490,
+          "tunnel": 87,
+          "undefined": 471
+        },
+        "train": {
+          "city street": 82,
+          "gas stations": 0,
+          "highway": 48,
+          "parking lot": 0,
+          "residential": 6,
+          "tunnel": 0,
+          "undefined": 0
+        },
+        "truck": {
+          "city street": 20045,
+          "gas stations": 7,
+          "highway": 7588,
+          "parking lot": 109,
+          "residential": 2125,
+          "tunnel": 35,
+          "undefined": 62
+        }
+      },
+      "timeofday_distribution": {
+        "bike": {
+          "dawn/dusk": 467,
+          "daytime": 5207,
+          "night": 1536,
+          "undefined": 0
+        },
+        "bus": {
+          "dawn/dusk": 1014,
+          "daytime": 8410,
+          "night": 2227,
+          "undefined": 21
+        },
+        "car": {
+          "dawn/dusk": 55985,
+          "daytime": 401271,
+          "night": 255152,
+          "undefined": 803
+        },
+        "motor": {
+          "dawn/dusk": 211,
+          "daytime": 2115,
+          "night": 674,
+          "undefined": 2
+        },
+        "person": {
+          "dawn/dusk": 6321,
+          "daytime": 66058,
+          "night": 18898,
+          "undefined": 72
+        },
+        "rider": {
+          "dawn/dusk": 316,
+          "daytime": 3331,
+          "night": 868,
+          "undefined": 2
+        },
+        "traffic light": {
+          "dawn/dusk": 12937,
+          "daytime": 88866,
+          "night": 84260,
+          "undefined": 54
+        },
+        "traffic sign": {
+          "dawn/dusk": 17251,
+          "daytime": 132955,
+          "night": 89366,
+          "undefined": 114
+        },
+        "train": {
+          "dawn/dusk": 9,
+          "daytime": 97,
+          "night": 30,
+          "undefined": 0
+        },
+        "truck": {
+          "dawn/dusk": 2292,
+          "daytime": 22325,
+          "night": 5323,
+          "undefined": 31
+        }
+      }
+    },
+    "val": {
+      "weather_distribution": {
+        "bike": {
+          "clear": 391,
+          "foggy": 0,
+          "overcast": 141,
+          "partly cloudy": 69,
+          "rainy": 57,
+          "snowy": 81,
+          "undefined": 268
+        },
+        "bus": {
+          "clear": 682,
+          "foggy": 0,
+          "overcast": 262,
+          "partly cloudy": 142,
+          "rainy": 132,
+          "snowy": 133,
+          "undefined": 246
+        },
+        "car": {
+          "clear": 53654,
+          "foggy": 138,
+          "overcast": 14370,
+          "partly cloudy": 8528,
+          "rainy": 6949,
+          "snowy": 7486,
+          "undefined": 11381
+        },
+        "motor": {
+          "clear": 200,
+          "foggy": 1,
+          "overcast": 72,
+          "partly cloudy": 65,
+          "rainy": 30,
+          "snowy": 9,
+          "undefined": 75
+        },
+        "person": {
+          "clear": 4935,
+          "foggy": 4,
+          "overcast": 1916,
+          "partly cloudy": 1034,
+          "rainy": 822,
+          "snowy": 1137,
+          "undefined": 3414
+        },
+        "rider": {
+          "clear": 293,
+          "foggy": 1,
+          "overcast": 101,
+          "partly cloudy": 45,
+          "rainy": 44,
+          "snowy": 38,
+          "undefined": 127
+        },
+        "traffic light": {
+          "clear": 14256,
+          "foggy": 33,
+          "overcast": 3171,
+          "partly cloudy": 1615,
+          "rainy": 2243,
+          "snowy": 2309,
+          "undefined": 3258
+        },
+        "traffic sign": {
+          "clear": 17987,
+          "foggy": 42,
+          "overcast": 4834,
+          "partly cloudy": 2877,
+          "rainy": 2538,
+          "snowy": 2700,
+          "undefined": 3930
+        },
+        "train": {
+          "clear": 5,
+          "foggy": 0,
+          "overcast": 2,
+          "partly cloudy": 2,
+          "rainy": 1,
+          "snowy": 5,
+          "undefined": 0
+        },
+        "truck": {
+          "clear": 1741,
+          "foggy": 5,
+          "overcast": 660,
+          "partly cloudy": 454,
+          "rainy": 378,
+          "snowy": 371,
+          "undefined": 636
+        }
+      },
+      "scene_distribution": {
+        "bike": {
+          "city street": 842,
+          "gas stations": 1,
+          "highway": 65,
+          "parking lot": 0,
+          "residential": 99,
+          "tunnel": 0,
+          "undefined": 0
+        },
+        "bus": {
+          "city street": 1188,
+          "gas stations": 0,
+          "highway": 293,
+          "parking lot": 4,
+          "residential": 107,
+          "tunnel": 5,
+          "undefined": 0
+        },
+        "car": {
+          "city street": 63742,
+          "gas stations": 54,
+          "highway": 22356,
+          "parking lot": 587,
+          "residential": 15261,
+          "tunnel": 140,
+          "undefined": 366
+        },
+        "motor": {
+          "city street": 357,
+          "gas stations": 0,
+          "highway": 32,
+          "parking lot": 2,
+          "residential": 59,
+          "tunnel": 0,
+          "undefined": 2
+        },
+        "person": {
+          "city street": 12095,
+          "gas stations": 5,
+          "highway": 447,
+          "parking lot": 28,
+          "residential": 661,
+          "tunnel": 2,
+          "undefined": 24
+        },
+        "rider": {
+          "city street": 538,
+          "gas stations": 0,
+          "highway": 52,
+          "parking lot": 0,
+          "residential": 58,
+          "tunnel": 0,
+          "undefined": 1
+        },
+        "traffic light": {
+          "city street": 22510,
+          "gas stations": 14,
+          "highway": 2813,
+          "parking lot": 44,
+          "residential": 1445,
+          "tunnel": 9,
+          "undefined": 50
+        },
+        "traffic sign": {
+          "city street": 22776,
+          "gas stations": 9,
+          "highway": 9300,
+          "parking lot": 68,
+          "residential": 2671,
+          "tunnel": 7,
+          "undefined": 77
+        },
+        "train": {
+          "city street": 6,
+          "gas stations": 0,
+          "highway": 9,
+          "parking lot": 0,
+          "residential": 0,
+          "tunnel": 0,
+          "undefined": 0
+        },
+        "truck": {
+          "city street": 2829,
+          "gas stations": 3,
+          "highway": 1033,
+          "parking lot": 16,
+          "residential": 348,
+          "tunnel": 7,
+          "undefined": 9
+        }
+      },
+      "timeofday_distribution": {
+        "bike": {
+          "dawn/dusk": 64,
+          "daytime": 751,
+          "night": 191,
+          "undefined": 1
+        },
+        "bus": {
+          "dawn/dusk": 134,
+          "daytime": 1156,
+          "night": 302,
+          "undefined": 5
+        },
+        "car": {
+          "dawn/dusk": 8590,
+          "daytime": 57833,
+          "night": 35927,
+          "undefined": 156
+        },
+        "motor": {
+          "dawn/dusk": 27,
+          "daytime": 329,
+          "night": 96,
+          "undefined": 0
+        },
+        "person": {
+          "dawn/dusk": 1046,
+          "daytime": 9366,
+          "night": 2843,
+          "undefined": 7
+        },
+        "rider": {
+          "dawn/dusk": 46,
+          "daytime": 478,
+          "night": 125,
+          "undefined": 0
+        },
+        "traffic light": {
+          "dawn/dusk": 2133,
+          "daytime": 12867,
+          "night": 11873,
+          "undefined": 12
+        },
+        "traffic sign": {
+          "dawn/dusk": 2558,
+          "daytime": 19475,
+          "night": 12841,
+          "undefined": 34
+        },
+        "train": {
+          "dawn/dusk": 1,
+          "daytime": 8,
+          "night": 6,
+          "undefined": 0
+        },
+        "truck": {
+          "dawn/dusk": 367,
+          "daytime": 3125,
+          "night": 747,
+          "undefined": 6
+        }
+      }
+    }
+  },
+  "anomalies": {
+    "train": {
+      "traffic light": {
+        "outlier_count": 16586,
+        "outlier_percentage": 8.911598618073576,
+        "very_small_objects": 21196,
+        "very_large_objects": 17,
+        "unusual_aspect_ratio": 31,
+        "outlier_samples": [
+          "0000f77c-6257be58.jpg",
+          "0000f77c-6257be58.jpg",
+          "00067cfb-e535423e.jpg",
+          "000e0252-8523a4a9.jpg",
+          "000f8d37-d4c09a0f.jpg"
+        ]
+      },
+      "traffic sign": {
+        "outlier_count": 26137,
+        "outlier_percentage": 10.904683627746302,
+        "very_small_objects": 10296,
+        "very_large_objects": 128,
+        "unusual_aspect_ratio": 121,
+        "outlier_samples": [
+          "0000f77c-6257be58.jpg",
+          "0000f77c-6257be58.jpg",
+          "0000f77c-62c2a288.jpg",
+          "00067cfb-5adfaaa7.jpg",
+          "00067cfb-caba8a02.jpg"
+        ]
+      },
+      "person": {
+        "outlier_count": 9599,
+        "outlier_percentage": 10.508051538604692,
+        "very_small_objects": 796,
+        "very_large_objects": 487,
+        "unusual_aspect_ratio": 72,
+        "outlier_samples": [
+          "00067cfb-e535423e.jpg",
+          "00067cfb-e535423e.jpg",
+          "00091078-84635cf2.jpg",
+          "000f157f-dab3a407.jpg",
+          "00225f53-67614580.jpg"
+        ]
+      },
+      "bike": {
+        "outlier_count": 774,
+        "outlier_percentage": 10.735090152565881,
+        "very_small_objects": 26,
+        "very_large_objects": 74,
+        "unusual_aspect_ratio": 3,
+        "outlier_samples": [
+          "0090c713-2854b392.jpg",
+          "0090c713-683fc99a.jpg",
+          "00ac3256-0f8e2cda.jpg",
+          "011f8481-b14725fa.jpg",
+          "012c8623-1782dc8b.jpg"
+        ]
+      },
+      "truck": {
+        "outlier_count": 4203,
+        "outlier_percentage": 14.023556104234093,
+        "very_small_objects": 55,
+        "very_large_objects": 4350,
+        "unusual_aspect_ratio": 13,
+        "outlier_samples": [
+          "00067cfb-e535423e.jpg",
+          "00091078-84635cf2.jpg",
+          "000f157f-30b30f5e.jpg",
+          "0010bf16-9ee17cd9.jpg",
+          "001bad4e-2fa8f3b6.jpg"
+        ]
+      },
+      "motor": {
+        "outlier_count": 342,
+        "outlier_percentage": 11.39240506329114,
+        "very_small_objects": 35,
+        "very_large_objects": 74,
+        "unusual_aspect_ratio": 0,
+        "outlier_samples": [
+          "00313a01-97de1f42.jpg",
+          "0070bc56-401304be.jpg",
+          "00d9e313-926b6698.jpg",
+          "0124dfa6-385f1b58.jpg",
+          "02dd2f2f-8ef6744a.jpg"
+        ]
+      },
+      "car": {
+        "outlier_count": 103612,
+        "outlier_percentage": 14.52753813387623,
+        "very_small_objects": 10585,
+        "very_large_objects": 35532,
+        "unusual_aspect_ratio": 167,
+        "outlier_samples": [
+          "0000f77c-6257be58.jpg",
+          "0000f77c-6257be58.jpg",
+          "0000f77c-cb820c98.jpg",
+          "0000f77c-cb820c98.jpg",
+          "0001542f-ec815219.jpg"
+        ]
+      },
+      "train": {
+        "outlier_count": 19,
+        "outlier_percentage": 13.970588235294118,
+        "very_small_objects": 5,
+        "very_large_objects": 31,
+        "unusual_aspect_ratio": 8,
+        "outlier_samples": [
+          "148b9b8a-7d0771aa.jpg",
+          "1b8f494a-bb87827f.jpg",
+          "221fa2a1-4b37bd43.jpg",
+          "2532100b-e3a8d68c.jpg",
+          "2b8deb24-27cd549c.jpg"
+        ]
+      },
+      "rider": {
+        "outlier_count": 548,
+        "outlier_percentage": 12.131945981846357,
+        "very_small_objects": 54,
+        "very_large_objects": 102,
+        "unusual_aspect_ratio": 2,
+        "outlier_samples": [
+          "009deddd-c8963379.jpg",
+          "00d9e313-926b6698.jpg",
+          "011f8481-b14725fa.jpg",
+          "012c8623-1782dc8b.jpg",
+          "024512c0-bf32188b.jpg"
+        ]
+      },
+      "bus": {
+        "outlier_count": 1714,
+        "outlier_percentage": 14.684715558601782,
+        "very_small_objects": 14,
+        "very_large_objects": 2032,
+        "unusual_aspect_ratio": 4,
+        "outlier_samples": [
+          "00091078-59817bb0.jpg",
+          "00091078-cedbfea7.jpg",
+          "0010bf16-a457685b.jpg",
+          "002ab96a-a96704f9.jpg",
+          "00699de6-58847872.jpg"
+        ]
+      }
+    },
+    "val": {
+      "traffic light": {
+        "outlier_count": 2464,
+        "outlier_percentage": 9.164961874651292,
+        "very_small_objects": 3157,
+        "very_large_objects": 0,
+        "unusual_aspect_ratio": 8,
+        "outlier_samples": [
+          "b1ca2e5d-84cf9134.jpg",
+          "b1d4b62c-89eeb5d3.jpg",
+          "b1d9e136-6c94ea3f.jpg",
+          "b1e1a7b8-65ec7612.jpg",
+          "b1e1a7b8-65ec7612.jpg"
+        ]
+      },
+      "traffic sign": {
+        "outlier_count": 3806,
+        "outlier_percentage": 10.902944883694282,
+        "very_small_objects": 1413,
+        "very_large_objects": 26,
+        "unusual_aspect_ratio": 13,
+        "outlier_samples": [
+          "b1c66a42-6f7d68ca.jpg",
+          "b1c81faa-3df17267.jpg",
+          "b1c81faa-c80764c5.jpg",
+          "b1c81faa-c80764c5.jpg",
+          "b1ceb32e-51852abe.jpg"
+        ]
+      },
+      "person": {
+        "outlier_count": 1396,
+        "outlier_percentage": 10.526315789473683,
+        "very_small_objects": 131,
+        "very_large_objects": 69,
+        "unusual_aspect_ratio": 7,
+        "outlier_samples": [
+          "b1ca2e5d-84cf9134.jpg",
+          "b1ceb32e-51852abe.jpg",
+          "b1d0a191-06deb55d.jpg",
+          "b1d0a191-06deb55d.jpg",
+          "b1d0a191-06deb55d.jpg"
+        ]
+      },
+      "bike": {
+        "outlier_count": 104,
+        "outlier_percentage": 10.327706057596822,
+        "very_small_objects": 7,
+        "very_large_objects": 7,
+        "unusual_aspect_ratio": 1,
+        "outlier_samples": [
+          "b27098c3-dedf92b2.jpg",
+          "b294386c-24ddd0c3.jpg",
+          "b2e54795-db1f3bad.jpg",
+          "b2e54795-db1f3bad.jpg",
+          "b312dcb5-3c956847.jpg"
+        ]
+      },
+      "truck": {
+        "outlier_count": 624,
+        "outlier_percentage": 14.69964664310954,
+        "very_small_objects": 12,
+        "very_large_objects": 615,
+        "unusual_aspect_ratio": 1,
+        "outlier_samples": [
+          "b1d0091f-f2c2d2ae.jpg",
+          "b1d0a191-65deaeef.jpg",
+          "b1d0a191-65deaeef.jpg",
+          "b1e0c01d-dd9e6e2f.jpg",
+          "b1e0c01d-dd9e6e2f.jpg"
+        ]
+      },
+      "motor": {
+        "outlier_count": 51,
+        "outlier_percentage": 11.283185840707963,
+        "very_small_objects": 7,
+        "very_large_objects": 11,
+        "unusual_aspect_ratio": 0,
+        "outlier_samples": [
+          "b29f09ea-911177ce.jpg",
+          "b306fb3f-178fca4e.jpg",
+          "b3079ec6-df7b2d92.jpg",
+          "b32f48c8-410503d5.jpg",
+          "b33ea6cb-ddf24803.jpg"
+        ]
+      },
+      "car": {
+        "outlier_count": 14908,
+        "outlier_percentage": 14.543538914795231,
+        "very_small_objects": 1444,
+        "very_large_objects": 5128,
+        "unusual_aspect_ratio": 22,
+        "outlier_samples": [
+          "b1c66a42-6f7d68ca.jpg",
+          "b1c9c847-3bda4659.jpg",
+          "b1c9c847-3bda4659.jpg",
+          "b1c9c847-3bda4659.jpg",
+          "b1ca2e5d-84cf9134.jpg"
+        ]
+      },
+      "train": {
+        "outlier_count": 2,
+        "outlier_percentage": 13.333333333333334,
+        "very_small_objects": 0,
+        "very_large_objects": 3,
+        "unusual_aspect_ratio": 1,
+        "outlier_samples": [
+          "b4561bec-26a99096.jpg",
+          "c9f5283d-36783b15.jpg"
+        ]
+      },
+      "rider": {
+        "outlier_count": 82,
+        "outlier_percentage": 12.63482280431433,
+        "very_small_objects": 7,
+        "very_large_objects": 9,
+        "unusual_aspect_ratio": 0,
+        "outlier_samples": [
+          "b1d9e136-6c94ea3f.jpg",
+          "b1ff4656-ebcfeb35.jpg",
+          "b27098c3-dedf92b2.jpg",
+          "b294386c-24ddd0c3.jpg",
+          "b29f09ea-911177ce.jpg"
+        ]
+      },
+      "bus": {
+        "outlier_count": 233,
+        "outlier_percentage": 14.58985597996243,
+        "very_small_objects": 0,
+        "very_large_objects": 283,
+        "unusual_aspect_ratio": 0,
+        "outlier_samples": [
+          "b1d9e136-6c94ea3f.jpg",
+          "b1f022d3-45162c67.jpg",
+          "b1fc95c9-cb2882c7.jpg",
+          "b204a5c1-05981158.jpg",
+          "b21c86ac-71205084.jpg"
+        ]
+      }
+    }
+  },
+  "interesting_samples": {
+    "traffic light": [
+      "67c7bea2-283d3be6.jpg",
+      "8edb33ee-ec1bc2e0.jpg",
+      "7bc6abdd-6a5c7b75.jpg",
+      "3bb2f5c2-1463d3a1.jpg",
+      "79034c34-93e6649d.jpg"
+    ],
+    "traffic sign": [
+      "1d33c83b-71e1ea1c.jpg",
+      "2e5a3ced-c7603d0d.jpg",
+      "60d0d49a-0deb8dbb.jpg",
+      "82973e21-053e0229.jpg",
+      "87ca2979-da874eeb.jpg"
+    ],
+    "person": [
+      "a5b6d9d0-6b4e063a.jpg",
+      "91caf6a1-32ee978d.jpg",
+      "14020ffa-5b61de09.jpg",
+      "997bc41e-0b3b46f8.jpg",
+      "8d091799-5c28a01c.jpg"
+    ],
+    "bike": [
+      "3e1a7d8e-216344b5.jpg",
+      "132f9b4e-f006a92e.jpg",
+      "997bc41e-0b3b46f8.jpg",
+      "905f2f88-d0e08e72.jpg",
+      "785e0c92-b4732f16.jpg"
+    ],
+    "truck": [
+      "4efe84c6-93313761.jpg",
+      "70cc96e1-aa1781b5.jpg",
+      "5488ff78-d6d75d2c.jpg",
+      "9d6673e0-664e11dc.jpg",
+      "2b79f8bc-0170af37.jpg"
+    ],
+    "motor": [
+      "80a7aded-61288b3d.jpg",
+      "89073038-0ebd7a1b.jpg",
+      "7e1a41ae-c6b33022.jpg",
+      "85ab0898-79056f8d.jpg",
+      "2be8e67c-dda39cbd.jpg"
+    ],
+    "car": [
+      "465b4176-967c2a5f.jpg",
+      "092564ae-43ba2b4b.jpg",
+      "20a773e1-a9268e6b.jpg",
+      "84643961-e2e4a747.jpg",
+      "1cd6b4e9-15d5d536.jpg"
+    ],
+    "train": [
+      "2532100b-e3a8d68c.jpg",
+      "6788ef76-73309c5a.jpg",
+      "320608e7-6da10836.jpg",
+      "5464c3f5-aa809bb1.jpg",
+      "2541a390-31023d52.jpg"
+    ],
+    "rider": [
+      "a60c67a8-5181cc01.jpg",
+      "258f40af-d9c871aa.jpg",
+      "164c713e-80de4d85.jpg",
+      "21825b6e-7981d5c8.jpg",
+      "70db9d09-be32daf5.jpg"
+    ],
+    "bus": [
+      "414fe350-4f0f6e64.jpg",
+      "1f30768a-c707eb93.jpg",
+      "601eb1af-aabfaeb6.jpg",
+      "1f8f289b-3ae59c8a.jpg",
+      "70e91c6f-320ffa0f.jpg"
+    ]
+  },
+  "data_quality_issues_file": "bdd_analysis_results\\data_quality_issues.csv",
+  "object_attributes_file": "bdd_analysis_results\\object_attributes.json",
+  "scenario_coverage_counts_file": "bdd_analysis_results\\scenario_coverage_counts.csv",
+  "scenario_coverage_lowcells_file": "bdd_analysis_results\\scenario_coverage_lowcells.csv",
+  "negative_frames_file": "bdd_analysis_results\\negative_frames.csv"
+}

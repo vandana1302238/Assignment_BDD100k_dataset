@@ -1,0 +1,52 @@
+[
+  {
+    "category_id": 6,
+    "category": "bike",
+    "AP": 0.0
+  },
+  {
+    "category_id": 4,
+    "category": "bus",
+    "AP": 0.24073231924596392
+  },
+  {
+    "category_id": 3,
+    "category": "car",
+    "AP": 0.31322056279789645
+  },
+  {
+    "category_id": 7,
+    "category": "motor",
+    "AP": 0.08573388677736639
+  },
+  {
+    "category_id": 1,
+    "category": "person",
+    "AP": 0.23300061362142188
+  },
+  {
+    "category_id": 2,
+    "category": "rider",
+    "AP": 0.0
+  },
+  {
+    "category_id": 8,
+    "category": "traffic light",
+    "AP": 0.08603161066845676
+  },
+  {
+    "category_id": 9,
+    "category": "traffic sign",
+    "AP": 0.0
+  },
+  {
+    "category_id": 10,
+    "category": "train",
+    "AP": 0.0001895135239439819
+  },
+  {
+    "category_id": 5,
+    "category": "truck",
+    "AP": 0.18965963904697183
+  }
+]

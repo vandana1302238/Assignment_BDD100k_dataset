@@ -1,0 +1,112 @@
+{
+  "train": {
+    "occluded": {
+      "false": {
+        "bike": 1167,
+        "bus": 4027,
+        "car": 230090,
+        "motor": 705,
+        "person": 38353,
+        "rider": 489,
+        "traffic light": 180206,
+        "traffic sign": 212712,
+        "train": 56,
+        "truck": 10337
+      },
+      "true": {
+        "bike": 6043,
+        "bus": 7645,
+        "car": 483121,
+        "motor": 2297,
+        "person": 52996,
+        "rider": 4028,
+        "traffic light": 5911,
+        "traffic sign": 26974,
+        "train": 80,
+        "truck": 19634
+      }
+    },
+    "truncated": {
+      "false": {
+        "bike": 6597,
+        "bus": 9526,
+        "car": 646682,
+        "motor": 2730,
+        "person": 88166,
+        "rider": 4290,
+        "traffic light": 181194,
+        "traffic sign": 232987,
+        "train": 98,
+        "truck": 25413
+      },
+      "true": {
+        "bike": 613,
+        "bus": 2146,
+        "car": 66529,
+        "motor": 272,
+        "person": 3183,
+        "rider": 227,
+        "traffic light": 4923,
+        "traffic sign": 6699,
+        "train": 38,
+        "truck": 4558
+      }
+    },
+    "crowd": {}
+  },
+  "val": {
+    "occluded": {
+      "false": {
+        "bike": 120,
+        "bus": 528,
+        "car": 33124,
+        "motor": 115,
+        "person": 5568,
+        "rider": 76,
+        "traffic light": 25971,
+        "traffic sign": 30888,
+        "train": 2,
+        "truck": 1476
+      },
+      "true": {
+        "bike": 887,
+        "bus": 1069,
+        "car": 69382,
+        "motor": 337,
+        "person": 7694,
+        "rider": 573,
+        "traffic light": 914,
+        "traffic sign": 4020,
+        "train": 13,
+        "truck": 2769
+      }
+    },
+    "truncated": {
+      "false": {
+        "bike": 925,
+        "bus": 1309,
+        "car": 93026,
+        "motor": 404,
+        "person": 12808,
+        "rider": 621,
+        "traffic light": 26149,
+        "traffic sign": 33983,
+        "train": 10,
+        "truck": 3612
+      },
+      "true": {
+        "bike": 82,
+        "bus": 288,
+        "car": 9480,
+        "motor": 48,
+        "person": 454,
+        "rider": 28,
+        "traffic light": 736,
+        "traffic sign": 925,
+        "train": 5,
+        "truck": 633
+      }
+    },
+    "crowd": {}
+  }
+}
